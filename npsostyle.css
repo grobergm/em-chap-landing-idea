@@ -1,0 +1,87 @@
+
+body{
+	background-color:#294A0C;
+}
+
+.carousel-item{
+  max-height:400px;
+}
+
+.card-body{
+	background-color:#162D01;
+}
+
+.btn {
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  font-family: 'Merriweather', serif;
+}
+
+.card:hover .btn{
+  opacity:1;
+}
+.portal {
+  color: white;
+  font-size:30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  margin:5px;
+  padding:5px;
+}
+
+.card-deck{
+  padding-bottom: 10px;
+}
+.navbar {
+	font-family: 'Merriweather', serif;
+	font-size:30px;
+	color:white;
+}
+
+.nav-link {
+font-size:20px;
+text-align:center;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-size:25px;
+	color:white;
+	text-align:center;
+
+}
+
+p{
+	font-family: 'Gentium Basic', serif;
+	font-size: 25px;
+	color:white;
+	text-align:center;
+}
+
+
+footer {
+  text-align:center;
+  color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.inat-widget{
+  text-align:center;
+  background-color:#7CA35A;
+}
+
